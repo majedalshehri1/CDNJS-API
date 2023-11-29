@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200;300;400;500;600&family=Dosis:wght@200;300;400;500;600;700;800&family=Montserrat:wght@300&family=Noto+Kufi+Arabic:wght@100;200;300;500;600;700;800;900&family=Tajawal:wght@200;300;400;500;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+.icon{
+    border-radius: 3rem;
+    width: 50vw;
+    margin: 2rem auto ;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.icon svg{ 
+    width: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container h1{
+    margin-bottom: 3rem;
+}
+#content{
+    text-align: center;
+}
+
+#content img{
+    width: 17rem;
+}
+#input-text{
+    width: 18rem;
+    height: 2rem;
+    font-size: 1rem;
+    outline: none;
+    font-family: 'Dosis', sans-serif;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.btn button{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid rgba(0, 0, 0, 0.442);
+}
+.btn button:hover{
+    background-color: rgba(137, 43, 226, 0.271);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
